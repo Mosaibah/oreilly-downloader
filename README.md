@@ -24,10 +24,6 @@ Inspired by [safaribooks](https://github.com/lorenzodifuccia/safaribooks) by [@l
 - **Images & styles included** - complete book experience
 - **Web UI** - search, preview, download
 
-[Demo](docs/demo.mp4)
-
-------
-
 <img src="docs/main.png" alt="Main Page">
 
 ## Quick Start
