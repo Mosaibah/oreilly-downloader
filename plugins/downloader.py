@@ -260,7 +260,7 @@ class DownloaderPlugin(Plugin):
                     all_image_urls.add(img_url)
 
             # Wrap in XHTML
-            css_refs = [f"Styles/Style{j:02d}.css" for j in range(len(all_css_urls))]
+            css_refs = [f"../Styles/Style{j:02d}.css" for j in range(len(all_css_urls))]
             xhtml = html_processor.wrap_xhtml(processed, css_refs, ch["title"])
 
             # Write chapter file
